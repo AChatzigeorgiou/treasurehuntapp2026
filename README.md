@@ -13,9 +13,9 @@
   </a>
 </div>
 
-##⚓️ The Quest
+## ⚓️ The Quest
 
-##🏴‍☠️ Get Started
+## 🏴‍☠️ Get Started
 
 + 📱
 `1.
@@ -23,6 +23,6 @@
 + 🖥
 `1.
 
-#🗿 Our Team
+# 🗿 Our Team
 
-###❗️ Disclosures
+### ❗️ Disclosures

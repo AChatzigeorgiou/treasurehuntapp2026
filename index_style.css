@@ -1,3 +1,27 @@
-h1 {
-    color:  cornflowerblue;
+.pirate-text {
+    font-family: 'Pirata One', fantasy;
 }
+
+.title_hp{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    max-width: 50vw;
+}
+body {
+    background: darkcyan;
+}
+/*
+h1 {
+    text-align: center;
+    font-size: 500%;
+    font-family: "Pirata One";
+    -webkit-text-stroke: 1px antiquewhite;
+    color:  gold;
+                                                                      ***
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 1));
+*/
+/* *** h-offset | v-offset | blur | color
+};
+*/

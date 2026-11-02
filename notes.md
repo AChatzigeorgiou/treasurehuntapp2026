@@ -14,3 +14,11 @@ Thursday 29/10
 Meeting 3 
 Monday 02/11
 -assinged the roles 
+
+Spyros and Alexis social media management 
+Andronikos and Stern are makes app.html
+
+
+
+
+

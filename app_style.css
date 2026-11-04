@@ -1,3 +1,28 @@
+body{
+    background-color: #4B9A9A;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+#container{
+    width: 85%;
+    max-width: 350px;
+
+    margin-top: 80px;
+
+    background-color: #F4E4BC;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+}
 button {
     background-color: saddlebrown;
     color: sandybrown;
@@ -8,4 +33,7 @@ button {
     padding: 20px;
     border: 1px solid lightgray;
     border-radius: 10px;
+}
+body {
+    background: darkcyan;
 }

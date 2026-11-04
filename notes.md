@@ -21,9 +21,10 @@ Andronikos and Stearn are makes app.html
 
 Meeting 4
 Wednesday 04/11-Created Starting page
-(Andronikos and Stearn)on app.html
-made a css file to for the app made some changes made the button and the box for the player to insert their name
-
+(Andronikos and Stearn)on app.html.
+Created a page asking the user for input (their name) and pressing the begin button.
+Created a css file for the app.html and customised the page.
+Also created aa map for later use.
 
 
 

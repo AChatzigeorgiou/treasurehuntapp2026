@@ -2,3 +2,10 @@ button {
     background-color: saddlebrown;
     color: sandybrown;
 }
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}

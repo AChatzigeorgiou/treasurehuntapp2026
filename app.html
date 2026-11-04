@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="app_style.css">
-    <title>Hello</title>
+    <title>Campus Treasure Hunt</title>
 </head>
 <body>
-<h1>Treasure Hunt</h1>
-<button>Start</button>
+
+<div id="container">
+    <h1>⚓ Ahoy, Treasure Hunter!</h1>
+
+    <p>
+        Enter your name before the treasure hunt begins
+    </p>
+
+    <input type="text" id="playerName" placeholder="Enter your name">
+
+    <button onclick="startAdventure()">
+        Begin Adventure
+    </button>
+
+</div>
+
+    <script>
+
+        function startAdventure() {
+
+            let playerName = document.getElementById('playerName').value;
+
+            if (playerName === "") {
+                alert("Please enter your name!");
+            }
+            else {
+                alert("Welcome aboard, " + playerName + "!");
+            }
+
+        }
+    </script>
+
+
 </body>
 </html>

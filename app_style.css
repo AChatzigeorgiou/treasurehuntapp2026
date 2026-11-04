@@ -1,28 +1,56 @@
-body{
-    background-color: #4B9A9A;
+h1{
+    font-size: 3rem;
+    color: #3b2410;
 
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+}
+#container{
+    width: 800px;
+    height: 1200px;
+
+    background-image: url("assets/Designer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    position: relative;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+}
+body{
     margin: 0;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
 
-    min-height: 100vh;
+    background-color: #0f8b8d;
 }
 
-#container{
-    width: 85%;
-    max-width: 350px;
+#content{
+    position: absolute;
 
-    margin-top: 80px;
+    top: 180px;
 
-    background-color: #F4E4BC;
+    left: 50%;
 
-    padding: 25px;
+    transform: translateX(-50%);
 
-    border-radius: 15px;
+    width: 65%;
 
     text-align: center;
 }
+
 button {
     background-color: saddlebrown;
     color: sandybrown;

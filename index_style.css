@@ -1,27 +1,93 @@
-.pirate-text {
-    font-family: 'Pirata One', fantasy;
+#header {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
 }
 
-.title_hp{
+#header img {
+    background: saddlebrown ;
     display: block;
-    margin: 0 auto;
+    width: 160px;
     height: auto;
+    margin: 0 auto;
+}
+
+#header.visible {
+    transform: translateY(0);
+}
+
+.title-image {
+    display: block;
     width: 100%;
-    max-width: 50vw;
+    height: auto;
+    max-inline-size: 50%;
+    margin: 0 auto;
+    /*transition: opacity 0.2s ease;*/
 }
-body {
-    background: darkcyan;
-}
+
 /*
-h1 {
+.title-image.hidden {
+    opacity: 0;
+}
+*/
+
+body{
+                /* TEMPORARY IMAGE v */
+    background-image: url("assets/Dock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    margin: 0;
+}
+
+h2 {
     text-align: center;
     font-size: 500%;
-    font-family: "Pirata One";
+    font-family: "Pirata One", serif;
     -webkit-text-stroke: 1px antiquewhite;
-    color:  gold;
-                                                                      ***
+    color: #d6963d;
+
+    /* *** h-offset | v-offset | blur | color*/
     filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 1));
-*/
-/* *** h-offset | v-offset | blur | color
-};
-*/
+}
+
+.map-button {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.map-button img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.map-button:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+/*  Mobile  */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    .title-image {
+        max-inline-size: 80%;
+    }
+
+    .map-button img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}

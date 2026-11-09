@@ -1,37 +1,41 @@
 Whats left:
-Team Meetings:
 
-Meeting 1
+
+# Team Meetings:
+
+## Meeting 1
 Monday 26/10
--Created Social media pages (TikTok,Instagram,X)
-(Andronikos,Stern)
--created discord chat to communicate 
 
-Meeting 2
+- Created Social media pages (TikTok,Instagram,X)
+(Andronikos,Stern)
+- Created discord chat to communicate 
+
+## Meeting 2
 Thursday 29/10
--Created the landing page logo and final touches on readme
+- Created the landing page logo and final touches on README.md
 (Fedonas)
 
-Meeting 3 
+## Meeting 3 
 Monday 02/11
--assinged the roles 
+- Assigned the roles 
+  - Spyros and Alexis social media management 
+  - Andronikos and Stearn develop app.html
 
-Spyros and Alexis social media management 
-Andronikos and Stearn are makes app.html
+## Meeting 4
+Wednesday 04/11-Created
 
-Meeting 4
-Wednesday 04/11-Created Starting page
-(Andronikos and Stearn)on app.html.
-Created a page asking the user for input (their name) and pressing the begin button.
-Created a css file for the app.html and customised the page.
-Also created aa map for later use.
-
-
-
+- Starting page 
+- (Andronikos and Stearn)on app.html.
+- Created a page asking the user for input (their name) and pressing the "Begin" button.
+- Created a CSS file for the app.html and customised the page.
+- Created a map for later use.
 
 
-Team Members:
-Anas
-Alexis and Spyros: Social Media Management
-Andronikos and Stern: App.html
-Fedonas: Index.html
+
+
+
+### Team Members:
+- Anas
+- Alexis and Spyros: Social Media Management
+- Andronikos and Stern: App.html
+- Fedonas: Index.html

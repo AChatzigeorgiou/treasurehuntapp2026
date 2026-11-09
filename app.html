@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="app_style.css">
-    <title>Campus Treasure Hunt</title>
+    <title>LostUnFound</title>
+
 </head>
 <body>
 
+<main>
 <div id="container">
-    <h1>⚓ Ahoy, Treasure Hunter!</h1>
+    <div id="content">
 
-    <p>
-        Enter your name before the treasure hunt begins
-    </p>
+        <h1>Ahoy, Treasure Hunter!</h1>
 
-    <input type="text" id="playerName" placeholder="Enter your name">
+        <p>
+            Enter your name before the treasure hunt begins
+        </p>
 
-    <button onclick="startAdventure()">
-        Begin Adventure
-    </button>
+        <input type="text"
+               id="playerName"
+               placeholder="Enter your pirate name">
+
+        <button onclick="startAdventure()">
+            Begin Adventure
+        </button>
+
+    </div>
 
 </div>
 
@@ -38,6 +46,7 @@
         }
     </script>
 
+</main>
 
 </body>
 </html>

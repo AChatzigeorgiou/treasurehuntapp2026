@@ -7,7 +7,7 @@ Whats left:
 Monday 26/10
 
 - Created Social media pages (TikTok,Instagram,X)
-(Andronikos,Stern)
+(Andronikos,Stern,Spyros,Alexis)
 - Created discord chat to communicate 
 
 ## Meeting 2
@@ -27,9 +27,15 @@ Wednesday 04/11-Created
 - Starting page 
 - (Andronikos and Stearn)on app.html.
 - Created a page asking the user for input (their name) and pressing the "Begin" button.
-- Created a CSS file for the app.html and customised the page.
+- Created a CSS file for the app.html and customized the page.
 - Created a map for later use.
+- Created the first post on Instagram(Spyros & Alexis)
 
+
+## Meeting 5
+Monday 16/11 
+
+-Created the second post on Instagram(Spyros & Alexis)
 
 
 

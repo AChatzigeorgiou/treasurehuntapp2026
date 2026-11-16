@@ -1,23 +1,62 @@
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slide-up {
+    from { transform: translateY(100%) }
+    to   { transform: translateY(0%) }
+}
+
+@keyframes slide-down {
+    from { transform: translateY(-100%) }
+    to   { transform: translateY(0%) }
+
+}
+
 #header {
     position: fixed;
     inset: 0 0 auto;
     z-index: 10;
     padding: 0.5rem 1rem;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease;
 }
 
 #header img {
-    background: saddlebrown ;
+
     display: block;
     width: 160px;
     height: auto;
     margin: 0 auto;
+    visibility: hidden;
 }
 
-#header.visible {
-    transform: translateY(0);
+
+body {
+    position: relative;
+    padding: 3rem;
+    margin: 0;
+    background: url("assets/Sea.jpeg") top center / cover no-repeat fixed;
 }
+
+/*
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("assets/Sea.jpeg")  top center / cover no-repeat;
+    z-index: -2;
+}
+*/
+/*
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+*/
+
 
 .title-image {
     display: block;
@@ -25,39 +64,32 @@
     height: auto;
     max-inline-size: 50%;
     margin: 0 auto;
-    /*transition: opacity 0.2s ease;*/
+    animation: fade-in 4s ease 0.5s both;
 }
 
-/*
-.title-image.hidden {
-    opacity: 0;
-}
-*/
-
-body{
-                /* TEMPORARY IMAGE v */
-    background-image: url("assets/Dock.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3rem;
+.title-image-copy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: block;
+    height: auto;
+    max-inline-size: none;
     margin: 0;
+    pointer-events: none;
+    animation: none;
+    will-change: transform, width;
 }
 
-h2 {
-    text-align: center;
-    font-size: 500%;
-    font-family: "Pirata One", serif;
-    -webkit-text-stroke: 1px antiquewhite;
-    color: #d6963d;
-
-    /* *** h-offset | v-offset | blur | color*/
-    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 1));
+.start-prompt {
+    animation: fade-in 5s ease 1.5s both, slide-down 2.5s ease-in-out 1.5s both;
 }
 
 .map-button {
     display: block;
     width: fit-content;
     margin-inline: auto;
+    animation: fade-in 1s ease 3s both, slide-up 750ms ease-in-out 3s both;
 }
 
 .map-button img {
@@ -66,23 +98,48 @@ h2 {
     height: 100px;
     object-fit: contain;
     transition: transform 0.2s ease;
+
 }
 
 .map-button:hover img {
     transform: scale(1.2);
 }
 
+h2 {
+    text-align: center;
+    font-size: 500%;
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #1a0400;
+    color: #d6963d;
+    /* *** h-offset | v-offset | blur | color*/
+    filter: drop-shadow(4px 4px 0px rgba(500, 500, 500, 0.5));
+}
 
+p {
+    text-align: center;
+    font-size: 150%;
+    font-family: "Pirata One", serif;
 
+}
+
+.first-normal-text {
+    margin-top: 100rem; /*12rem;*/
+}
 
 /*  Mobile  */
 @media (max-width: 600px) {
     body {
         padding: 1rem;
+        background: url("assets/Vertical-Sea.jpeg") top center / cover no-repeat fixed;
+
     }
 
     .title-image {
         max-inline-size: 80%;
+    }
+
+    h2 {
+        font-size: 200%;
     }
 
     .map-button img {

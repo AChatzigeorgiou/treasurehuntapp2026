@@ -19,7 +19,7 @@
 
 Your device shows what they left behind. Follow where it leads
 <br>
-Every riddle is a step -> Every step leads to gold
+Every riddle is a step ➩ Every step leads to gold
 
 <br>
 The old ones keep their secrets locked 🔒
@@ -71,7 +71,7 @@ You already have the key 🧠
     <td align="center" width="150">
       <a href="https://github.com/Aahmad725001"><img src="https://github.com/Aahmad725001.png" width="120" /></a><br />
       <b>Anas</b><br />
-      <sub><!--[Description36]--></sub>
+      <sub><!--[Description6]--></sub>
     </td>
   </tr>
 </table>   

@@ -1,88 +1,14 @@
 body {
-    margin: 0;
-    min-height: 100vh;
-    background:#0f8b8d;
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    padding-top:20px;
-
-}
-
-#container {
-    /* scales down on phones, never bigger than 800px */
-    width:100vw;
-    max-width:550px;
-    height:95vh;
-
-    background-image: url("assets/pirate-scroll.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:100% 100%;
     position: relative;
+    padding: 3rem;
+    margin: 0;
+    background: url("assets/Sea.jpeg") top center / cover no-repeat fixed;
 }
 
-#content {
-    position: absolute;
 
-    /* the parchment area, as % of the scroll image */
-    top: 32%;
-    left: 16%;
-    right: 16%;
-    bottom: 22%;
-
-    box-sizing: border-box;
+div {
+    width : 300px;
+    margin : 0 auto;
     text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-#content h1 {
-    color: #44260d;
-    font-size: clamp(1.8rem, 5vw, 2.8rem);
-    line-height:1.1;
-    text-shadow: 1px 1px 1px #d4b06b;
-    margin-bottom: 15px;
-}
-
-#content p {
-    margin-bottom:20px;
-    color: #3b2410;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
-}
-
-input {
-    width: 100%;
-    padding: 14px;
-    border:2px solid #8b5a2b;
-    border-radius: 8px;
-    background:#fff8e8;
-    margin-bottom: 15px;
-    font-size:1rem;
-}
-
-button {
-    width: 100%;
-    padding: 14px;
-    background-color: #7a4e24;
-    color: #f5deb3;
-    border: 2px solid #4a2c12;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size:1rem;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #623a1a;
-}
-
-/* kept from your old code (only applies to class="container") */
-.container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
 }

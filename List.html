@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="List_script.js" defer></script>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="List_style.css">
+    <script src="List_script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
 
     <!-- Tab bar -->
@@ -13,25 +14,18 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <img src="assets/Title.png" alt="Lost un Found"/>
+    </header>
 
+    <!-- Main Body -->
 
-<!-- Header -->
-<header class="header" id="header">
-
-    <img src="assets/Title.png" alt="Lost un Found"/>
-
-</header>
-
-<!-- Main Body -->
-<img src="assets/Title.png" class="title-image" alt="Lost un Found"/>
-
-
-
-
-
+    <h2>Pick your Treasure Hunt</h2>
+    <p id="message">Loading treasure hunts…</p>
+    <ul id="hunts" ></ul>
 </body>
 
 <footer>
-
 </footer>
 </html>

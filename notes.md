@@ -1,5 +1,8 @@
-Whats left:
-
+### What's left:
+* Index 40%
+* App  50%
+* List 5%
+* Test 0%
 
 # Team Meetings:
 
@@ -35,13 +38,19 @@ Wednesday 04/11-Created
 ## Meeting 5
 Monday 16/11 
 
--Created the second post on Instagram(Spyros & Alexis)
+- Created the second post on Instagram(Spyros & Alexis)
 
+##  Meeting 6
+Monday 23/11
 
+- App progression (Stern)
+- List progression
 
 
 ### Team Members:
-- Anas
-- Alexis and Spyros: Social Media Management
-- Andronikos and Stern: App.html
-- Fedonas: Index.html
+- Anas:
+- Alexis : Social Media Management & List Page
+- Spyros : Social Media Management & List page
+- Andronikos : App page
+- Stern: App page
+- Fedonas: Index page & List Page

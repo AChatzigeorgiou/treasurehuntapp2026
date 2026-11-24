@@ -1,0 +1,114 @@
+#header {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+}
+
+#header img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+body {
+    position: relative;
+    padding: 3rem;
+    margin: 0;
+    background: url("assets/Table-wallpaper.jpeg") top center / cover no-repeat fixed;
+}
+
+h2 {
+    text-align: center;
+    font-size: 500%;
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #1a0400;
+    color: #e7a74e;
+    /* *** h-offset | v-offset | blur | color*/
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.5));
+}
+
+
+#hunts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 185px);
+    gap: 50px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto; /* centers the grid */
+    padding: 0;
+    list-style: none;
+}
+
+#hunts li{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+
+.button {
+    display: block;
+    text-decoration: none; /* removes underline */
+}
+
+/* fit image to button */
+.button img {
+    width: 100%;
+    max-width: 180px;
+}
+
+/* When hover -> scale up by 1.2 */
+.button:hover img {
+    transform: scale(1.2);
+}
+
+/* Button Text */
+.button span {
+    color: #d4b06b;
+    display: block;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    font-size: 150%;
+    font-family: "Pirata One", serif;
+    color: #d4b06b;
+}
+
+/*
+*   NEEDS ATTENTION
+*   ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇
+*/
+/*  Mobile  */
+@media (max-width: 600px) {
+
+    main {
+        padding-top: 500px; /* so header doesn't cover text */
+    }
+
+    #header img {
+        width: 200px;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    .title-image {
+        max-inline-size: 80%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    .hunt-button img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}

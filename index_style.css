@@ -23,27 +23,13 @@ body {
     background: url("assets/Sea.jpeg") top center / cover no-repeat fixed;
 }
 
-.title-image {
+.title-image img{
     display: block;
     width: 100%;
     height: auto;
     max-inline-size: 50%;
     margin: 0 auto;
-    animation: fade-in 4s ease 0.5s both;
-}
-
-.title-image-copy {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 20;
-    display: block;
-    height: auto;
-    max-inline-size: none;
-    margin: 0;
-    pointer-events: none;
-    animation: none;
-    will-change: transform, width;
+    animation: fade-in 1s ease 0.5s both;
 }
 
 .start-prompt {
@@ -54,7 +40,7 @@ body {
     color: #d6963d;
     /* *** h-offset | v-offset | blur | color*/
     filter: drop-shadow(4px 4px 0px rgba(500, 500, 500, 0.5));
-    animation: fade-in 5s ease 1.5s both, slide-down 2.5s ease-in-out 1.5s both;
+    animation: fade-in 2s ease 1.5s both, slide-down 2.5s ease-in-out 1.5s both;
 }
 
 .map-button {

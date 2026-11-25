@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    padding: 3rem;
+    margin: 0;
+    background: url("assets/Sea.jpeg") top center / cover no-repeat fixed;
+}
+
+
+div {
+    width : 300px;
+    margin : 0 auto;
+    text-align: center;
+
+}
+
+p {
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #1a0400;
+    color: #d6963d;
+    /* *** h-offset | v-offset | blur | color*/
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #1a0400;
+    color: #e7a74e;
+    /* *** h-offset | v-offset | blur | color*/
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.5));
+}

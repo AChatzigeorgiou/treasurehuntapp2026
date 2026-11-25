@@ -1,8 +1,8 @@
-const huntsList = document.getElementById("hunts");
-const message = document.getElementById("message");
+const huntsList = document.getElementById("hunts"); // <ul>
+const message = document.getElementById("message"); // Loading Treasure Hunts...
 
 fetch("https://codecyprus.org/th/api/list")
-    .then(response => response.json()) // convert JSON to javascript
+    .then(response => response.json()) // convert JSON to JavaScript
     .then(data => {
 
         // Check for  success status

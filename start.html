@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <script src="start.js" defer></script>
+        <script src="start_script.js" defer></script>
         <link rel="stylesheet" href="start_style.css">
         <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
 
@@ -33,46 +33,14 @@
                id="playerName"
                placeholder="Enter your pirate name">
 
-        <button onclick="startAdventure()">
-            Begin Adventure
-        </button>
+        <a  href="questions.html" >
+            <button>    Begin your adventure </adventure></button>
+        </a>
 
     </div>
 
 </div>
 
-    <script>
-
-        function startAdventure() {
-
-            let playerName = document.getElementById('playerName').value;
-
-            if (playerName === "") {
-                alert("Please enter your name!");
-            }
-
-
-            window.location.href = "List.html";
-
-        }
-
-        function playerName() {
-
-            fetch ("https://codecyprus.org/th/api/start?player=Homer&app=simpsons-app&treasure-hunt-id=ag9nfmNvZGVjeXBydXNvcmdyGQsSDFRyZWFzdXJlSHVudBiAgICAvKGCCgw")
-            .then(res => res.json())
-            .then(data => {})
-            .catch(err => console.log(err));
-
-
-
-
-        }
-
-
-
-
-
-    </script>
 
 </main>
 

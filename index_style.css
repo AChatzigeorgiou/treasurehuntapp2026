@@ -29,51 +29,123 @@ body {
     height: auto;
     max-inline-size: 50%;
     margin: 0 auto;
-    animation: fade-in 1s ease 0.5s both;
+    animation: fade-in 3.5s ease;
 }
 
 .start-prompt {
-    text-align: center;
-    font-size: 500%;
-    font-family: "Pirata One", serif;
-    -webkit-text-stroke: 0.001em #1a0400;
-    color: #d6963d;
-    /* *** h-offset | v-offset | blur | color*/
-    filter: drop-shadow(4px 4px 0px rgba(500, 500, 500, 0.5));
-    animation: fade-in 2s ease 1.5s both, slide-down 2.5s ease-in-out 1.5s both;
+    animation: fade-in 2s ease 500ms both, slide-down 1500ms ease-in-out 50ms both;
 }
 
-.map-button {
+.start-button {
     display: block;
     width: fit-content;
     margin-inline: auto;
-    animation: fade-in 1s ease 3s both, slide-up 750ms ease-in-out 3s both;
+    animation: fade-in 1s ease 1s both, slide-up 500ms ease-in-out 1s both;
 }
 
-.map-button img {
+.start-button img {
     display: block;
     width: 100px;
     height: 100px;
     object-fit: contain;
     transition: transform 0.2s ease;
-
 }
 
-.map-button:hover img {
+.start-button:hover img {
     transform: scale(1.2);
 }
 
 .first-normal-text {
-    margin-top: 100rem; /*12rem;*/
+    font-size: 250%;
+    margin-top: 13rem;
+    animation: fade-in 2.5s ease 2.5s both;
+    color: #00be8c;
+    -webkit-text-stroke: 1px #006843;
+}
+
+.Description {
+    font-size: 120%;
+    font-weight: 500;
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+.team-table {
+    margin-inline: auto;
+}
+
+.wanted-card {
+    position: relative;
+    width: 240px;
+    height: 360px;
+    margin: 8px;
+    background: url("assets/wanted.png") center / 100% 100% no-repeat;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Descendant_combinator */
+.wanted-card .portrait {
+    position: absolute;
+    left: 40px;
+    top: 108px;
+    width: 161px;
+    height: 176px;
+
+    object-fit: cover; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit */
+}
+
+.wanted-card .details {
+    position: absolute;
+    top: 285px;
+    left: 10px;
+    right: 10px;
+
+    font-family: "Pirata One", serif;
+    color: #432e1e;
+}
+
+.wanted-card .details .role{
+    color: #fff0d6;
+    font-size: 80%;
+    font-family: "Playwrite FR Trad", cursive;
+}
+
+/* General */
+h2{
+    text-align: center;
+    font-size: 500%;
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #1a0400;
+    color: #e8b34f;
+    /* *** h-offset | v-offset | blur | color*/
+    filter: drop-shadow(4px 4px 0px rgba(500, 500, 500, 0.5));
+}
+
+h3{
+    text-align: center;
+    font-size: 250%;
+    font-family: "Pirata One", serif;
+    -webkit-text-stroke: 0.001em #795d34;
+    color: #bf8b28;
+    margin-top: 8rem;
+
 }
 
 p {
     text-align: center;
     font-size: 150%;
     font-family: "Pirata One", serif;
-
 }
 
+.link {
+    font-size: 125%;
+    font-weight: bold;
+    color: #e5af2d;
+    -webkit-text-stroke: 2px #feb740;
+    text-decoration: none;
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+}
+/* #ffb714 #ffd99a*/
 /*  Mobile  */
 @media (max-width: 600px) {
     body {
